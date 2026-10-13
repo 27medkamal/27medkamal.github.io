@@ -1,0 +1,13 @@
+# Personal site, built by GitHub Pages (Jekyll with the built-in minima theme; no Actions needed).
+# The custom domain is set in the repo's Pages settings, which also writes the CNAME file;
+# GitHub Pages fills in site.url from it.
+title: Ahmed Kamal
+author:
+  name: Ahmed Kamal
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+github_username: 27medkamal
+show_excerpts: true
+permalink: /:title/
