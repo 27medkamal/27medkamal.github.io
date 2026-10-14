@@ -2,8 +2,7 @@
 # The custom domain is set in the repo's Pages settings, which also writes the CNAME file;
 # GitHub Pages fills in site.url from it.
 title: Ahmed Kamal
-author:
-  name: Ahmed Kamal
+author: Ahmed Kamal
 theme: minima
 plugins:
   - jekyll-feed
