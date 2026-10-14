@@ -7,6 +7,11 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 github_username: 27medkamal
 show_excerpts: true
-permalink: /:title/
+# Posts live at /blog/<slug>/. The date stays in the file name and the front matter, and the topic
+# goes in tags, so a URL survives re-dating and re-categorising. The root stays free for sections
+# and project pages (/about/, /projects/, /<project-name>/). A moved URL keeps working through
+# `redirect_from:` in the post's front matter.
+permalink: /blog/:title/
